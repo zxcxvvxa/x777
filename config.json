@@ -53,13 +53,13 @@
     {
       "port": 10000, "listen": "127.0.0.1", "protocol": "trojan", "tag": "trojan-ws",
       "settings": {"clients": [{"password": "trojan-2020"}]},
-      "streamSettings": {"network": "ws", "wsSettings": {"path": "/x777"}, "sockopt": {"tcpFastOpen": true, "tcpNoDelay": true, "tcpKeepAliveInterval": 15}},
+      "streamSettings": {"network": "ws", "wsSettings": {"path": "/x7"}, "sockopt": {"tcpFastOpen": true, "tcpNoDelay": true, "tcpKeepAliveInterval": 15}},
       "sniffing": {"enabled": true, "destOverride": ["http", "tls"]}
     },
     {
       "port": 10006, "listen": "127.0.0.1", "protocol": "vless", "tag": "vless-ws",
       "settings": {"clients": [{"id": "8f4e2d7a-1b3c-5e6f-9a0b-4c2d8f1a3b5c"}], "decryption": "none"},
-      "streamSettings": {"network": "ws", "wsSettings": {"path": "/x777"}, "sockopt": {"tcpFastOpen": true, "tcpNoDelay": true, "tcpKeepAliveInterval": 15}},
+      "streamSettings": {"network": "ws", "wsSettings": {"path": "/x6"}, "sockopt": {"tcpFastOpen": true, "tcpNoDelay": true, "tcpKeepAliveInterval": 15}},
       "sniffing": {"enabled": true, "destOverride": ["http", "tls"]}
     }
   ],
